@@ -1,16 +1,32 @@
-# React + Vite
+# 4kmovies
+A modern Movie Database web application built with React and Tailwind CSS, allowing users to search for movies and view detailed information using the OMDb API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is developed as a Frontend Capstone Project and simulates a real-world frontend development workflow, including API integration, responsive UI design, state management, and deployment.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 4Kmovies enables users to:
+- Search for movies by title
+- View a list of matching movies with posters and release years
+- Click on a movie to see detailed information such as plot, cast, genre, and ratings
+- Enjoy a clean, responsive experience across desktop and mobile devices
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend Framework: React (Vite)
+Styling: Tailwind CSS
+API: OMDb API
+State Management: React Hooks (useState, useEffect)
+
+
+
+## Features
+
+🔍 Movie search functionality
+🎞️ Movie listing with posters and basic info
+📄 Detailed movie view
+📱 Fully responsive design
+⚠️ Error handling for empty results and API failures
+⏳ Loading indicators for better UX
