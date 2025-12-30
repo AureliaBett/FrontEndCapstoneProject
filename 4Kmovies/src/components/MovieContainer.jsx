@@ -1,6 +1,6 @@
 const MovieContainer = ({ movie }) => {
   return (
-    <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden w-48 m-2">
+    <div className="bg-gray-00 rounded-lg shadow-md overflow-hidden w-48 m-2">
       <img
         src={movie.Poster !== "N/A" ? movie.Poster : "https://via.placeholder.com/200x300"}
         alt={movie.Title}

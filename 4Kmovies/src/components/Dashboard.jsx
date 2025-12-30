@@ -33,7 +33,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-4">
+    <div className="min-h-screen bg-gray-00 text-white p-4">
       <h2 className="text-2xl font-bold text-center mb-4">
         Welcome to 4Kmovies 🎬
       </h2>
@@ -44,8 +44,11 @@ const Dashboard = () => {
       {error && <p className="text-center mt-4 text-red-500">{error}</p>}
 
       {selectedMovie ? (
-        <MovieDetails movie={selectedMovie} />
-      ) : (
+        <MovieDetails movie={selectedMovie} 
+        onBack={() => setSelectedMovie(null)}
+        />
+      ) : 
+      (
         <div className="mt-8 flex flex-wrap justify-center">
           {movies.map((movie) => (
             <div
